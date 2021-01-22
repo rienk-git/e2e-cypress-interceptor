@@ -1,0 +1,10 @@
+<h1>{{message$ | async}}</h1>
+
+<button id="button" (click)="message$.next('Clicked button')">change message</button>
+<br>
+<p id="datafetch1">{{fetch1data$ | async | json}}</p>
+<button id="fetch1" (click)="fetch1()">fetch</button>
+<br>
+
+<p id="datafetch2">{{fetch2data$ | async | json}}</p>
+<button id="fetch2" (click)="fetch2()">fetch</button>

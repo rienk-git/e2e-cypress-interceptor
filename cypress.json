@@ -1,0 +1,11 @@
+{
+    "fileServerFolder": ".",
+    "fixturesFolder": "./src/fixtures",
+    "integrationFolder": "./e2e/src",
+    "modifyObstructiveCode": false,
+    "supportFile": "./e2e/support/index.ts",
+    "video": true,
+    "videosFolder": "../../dist/cypress/e2e/videos",
+    "screenshotsFolder": "../../dist/cypress/e2e/screenshots",
+    "chromeWebSecurity": false
+}
